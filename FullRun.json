@@ -1,0 +1,35 @@
+{
+    "NParticles": 9,
+    "EVALS": 1000000,
+    "DIST_ATOMS": 3,
+    "N_ELECTRON_STATES": [
+        1,
+        -1
+    ],
+    "excitations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "NUM_KOEFS_PER_ELECTRON": 10,
+    "OPTIMIZE_PHASE": false,
+    "VP_FACT": 0.2,
+    "SHARE_KOEFS": true,
+    "CHECK_ZERO_KOEF": true,
+    "EXTEND_INTEGRAL_FACTOR": 0.9,
+    "WIDTH": 0.9572932614500979,
+    "POTENZ_Vel": 4,
+    "VE_FACT": 2.0,
+    "MP_THREADS": 24,
+    "FP_EVALS": 10000,
+    "COMPILE_BEFORE_INTEGRATION_IF_EVAL_IS_MORE": -1,
+    "NOT_SYMMETRIZED": true,
+    "OPTIMIZE_ROUNDS": 4,
+    "DO_AFTER_OPTIMIZATION_EVAL": 1000000000
+}
