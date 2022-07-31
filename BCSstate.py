@@ -205,7 +205,7 @@ def phi_q_el_one(xp, ne, me, koefs):
     else:
         ret = 1
     for n in range(1, NUM_KOEFS_PER_ELECTRON):
-        ret += QP[n % NParticles] * (koefs[2*NUM_KOEFS_PER_ELECTRON*ne_tmp + 2*n] + I * koefs[2*NUM_KOEFS_PER_ELECTRON*ne_tmp + 2*n + 1] * exp(I * RECIPROCAL_LENGTH * n * xp[NParticles+ne])) 
+        ret += QP[n % NParticles] * (koefs[2*NUM_KOEFS_PER_ELECTRON*ne_tmp + 2*n] + I * koefs[2*NUM_KOEFS_PER_ELECTRON*ne_tmp + 2*n + 1]) * exp(I * RECIPROCAL_LENGTH * n * xp[NParticles+ne])
     return ret * exp(I * RECIPROCAL_LENGTH * me * xp[NParticles+ne])
 
 def phi_q_el_slater(xp, koefs): 
