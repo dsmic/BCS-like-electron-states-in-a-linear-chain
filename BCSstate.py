@@ -1,5 +1,13 @@
 import os, sys
 
+# version july 2022, 
+# created the first full runs
+# 
+# python BCSstate.py FullRun_fast.json
+#
+# (c) 2022 by Detlef Schmicker
+
+
 #os.environ['NUMBA_OPT'] = "1"  # not sure if it is not to late to set!!!!
 
 if 'NUMBA_OPT' in os.environ:
