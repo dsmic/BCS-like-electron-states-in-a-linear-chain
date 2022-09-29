@@ -14,3 +14,8 @@ If you do have a lot of computational power, you could use FullRun.json :)
 
 
 BCS_3D_Al.py is a prove of concept to run a 3D material (Al) with realistic pseudo potentials in a 5x5x1 supercell calculating a gap. Due to the small supercell the gap is probably overestimated.
+
+Run it by:
+```
+python BCS_3D_Al.py
+```
