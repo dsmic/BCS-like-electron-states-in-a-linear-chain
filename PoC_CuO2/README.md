@@ -1,0 +1,3 @@
+# Proof of Concept for a CuO<sub>2</sub>  calculation
+
+A test calculation is done only taking into account the CuO<sub>2</sub> layer of typical HTC superconductors like YBaCu. A relatively large distance between the layers is used. The result seems to indicate a superconduction gap, which is quite large...
